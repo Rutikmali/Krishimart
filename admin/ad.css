@@ -1,0 +1,49 @@
+body{
+
+    background-image: url("img\krushi.jpeg");
+    background-color: rgb(228, 175, 233);
+}
+
+/* Reset some default table styling */
+table {
+    width: 98%;
+    border-collapse: collapse;
+    background-color: rgb(208, 68, 194);
+    margin: 5px 30px 15px 10px;
+}
+
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Make the table responsive */
+.table-wrapper {
+    overflow-x: auto;
+}
+
+/* Adjust table layout for smaller screens */
+@media (max-width: 600px) {
+    table {
+        display: block;
+    }
+    
+    tbody, tr, th, td {
+        display: block;
+    }
+
+    tbody tr {
+        margin-bottom: 10px;
+    }
+
+    th {
+        text-align: left;
+    }
+}
+
+
+.para{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
